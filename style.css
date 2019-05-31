@@ -1,0 +1,21 @@
+body {
+  font-family: Lato;
+}
+
+.board{
+  width: 300px;
+  height: 300px;
+}
+
+.square{
+  border-width: 1px;
+  border-color: #000;
+  border-style:solid;
+  background-color: #ccf;
+  width: 33%;
+  height: 33%;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 50px;
+  line-height: 50px;
+}
