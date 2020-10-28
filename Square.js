@@ -2,6 +2,7 @@ import React from 'react';
 
 export default class Square extends React.Component {
   constructor(data){
+    super(data)
     this.state = data.data;
   }
   render() {
